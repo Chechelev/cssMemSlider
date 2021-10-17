@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>MemSlider</title>
 </head>
 
+<body>
+    
+    <div class="slider">
+        <input type="radio" name="slide" id="img1" checked>
+        <input type="radio" name="slide" id="img2">
+        <input type="radio" name="slide" id="img3">
+        <input type="radio" name="slide" id="img4">
+
+        <div class="images__slider">
+            <div class="images-container">
+                <img class="m1" src="img/img_1.jpg" alt="">
+                <img class="m2" src="img/img_2.jpg" alt="">
+                <img class="m3" src="img/img_3.jpg" alt="">
+                <img class="m4" src="img/img_4.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slider__content">
+            <div class="text__slider">
+                <div class="text-container">
+                    <p class="text__title">Укуси меня пчела!</p>
+                    <p class="text__title">Oh, mein Gott, Фантастиш!</p>
+                    <p class="text__title">Феноменально!</p>
+                    <p class="text__title">Ёлки-иголки!</p>
+                </div>
+            </div>
+
+            <div class="dots-container">
+                <label for="img1">
+                    <div class="dots__content"></div>
+                </label>
+                <label for="img2">
+                    <div class="dots__content"></div>
+                </label>
+                <label for="img3">
+                    <div class="dots__content"></div>
+                </label>
+                <label for="img4">
+                    <div class="dots__content"></div>
+                </label>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
