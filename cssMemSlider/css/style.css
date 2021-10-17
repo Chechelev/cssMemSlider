@@ -128,3 +128,43 @@ label {
 .dots-container label:hover .dots__content {
     background: #fff11b;
 }
+
+#img1:checked~.images__slider .images-container,
+#img1:checked~.slider__content .text__slider .text-container {
+    margin-left: 0;
+}
+
+#img2:checked~.images__slider .images-container,
+#img2:checked~.slider__content .text__slider .text-container {
+    margin-left: -100%;
+}
+
+#img3:checked~.images__slider .images-container,
+#img3:checked~.slider__content .text__slider .text-container {
+    margin-left: -200%;
+}
+
+#img4:checked~.images__slider .images-container,
+#img4:checked~.slider__content .text__slider .text-container {
+    margin-left: -300%;
+}
+
+#img1:checked~.slider__content .dots-container label:nth-child(1) .dots__content {
+    border: 3px solid #fff11b;
+    background: transparent;
+}
+
+#img2:checked~.slider__content .dots-container label:nth-child(2) .dots__content {
+    border: 3px solid #fff11b;
+    background: transparent;
+}
+
+#img3:checked~.slider__content .dots-container label:nth-child(3) .dots__content {
+    border: 3px solid #fff11b;
+    background: transparent;
+}
+
+#img4:checked~.slider__content .dots-container label:nth-child(4) .dots__content {
+    border: 3px solid #fff11b;
+    background: transparent;
+}
